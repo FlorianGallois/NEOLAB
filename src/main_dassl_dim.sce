@@ -1,5 +1,5 @@
-//< one line to give the library's name and a brief idea of what it does. >
-//Copyright (C) < year > < name of author >
+//NEOLAB: simulation of the negative electrode of a lead-acid battery (dimensional equations, DASSL solver)
+//Copyright (C) 2021 Mikaël Cugnet, Florian Gallois, Angel Kirchev, Denys Dutykh
 //This library is free software; 
 //you can redistribute it and/or modify it under the terms of 
 //the GNU Lesser General Public License as published by the Free Software Foundation; 
