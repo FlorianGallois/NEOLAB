@@ -1,0 +1,58 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+cff-version: 1.2.0
+message: "If you use NEOLAB, please cite the article given under preferred-citation."
+title: "NEOLAB: a Scilab tool to simulate the negative electrode of lead-acid batteries"
+type: software
+authors:
+  - family-names: Cugnet
+    given-names: Mikaël
+    affiliation: "Univ. Grenoble Alpes, CEA, Liten"
+    orcid: "https://orcid.org/0000-0003-2478-931X"
+  - family-names: Gallois
+    given-names: Florian
+    affiliation: "Univ. Grenoble Alpes, CEA, Liten"
+    orcid: "https://orcid.org/0000-0002-4238-7077"
+  - family-names: Kirchev
+    given-names: Angel
+    affiliation: "Univ. Grenoble Alpes, CEA, Liten"
+    orcid: "https://orcid.org/0000-0001-5553-9319"
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Khalifa University of Science and Technology"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
+repository-code: "https://github.com/FlorianGallois/NEOLAB"
+license: LGPL-2.1-or-later
+version: "1.0"
+keywords:
+  - lead-acid-battery
+  - battery-modeling
+  - electrochemistry
+  - energy-storage
+  - differential-algebraic-equations
+  - dassl
+  - numerical-simulation
+  - scilab
+abstract: >-
+  Scilab tool that simulates the negative electrode of a lead-acid battery: a system of differential-algebraic
+  equations for the interfacial voltage, the porosity and the acid concentration across the thickness of the electrode,
+  integrated by the DASSL solver of Scilab in dimensional or dimensionless form, for discharges at rates from 0.05C to
+  12C followed by rests, compared with experimental records. It is a minimum working example for learning to model
+  batteries and a framework for other primary and secondary technologies.
+preferred-citation:
+  type: article
+  title: "NEOLAB: A Scilab Tool to Simulate the Negative Electrode of Lead-Acid Batteries"
+  authors:
+    - family-names: Cugnet
+      given-names: Mikaël
+    - family-names: Gallois
+      given-names: Florian
+    - family-names: Kirchev
+      given-names: Angel
+    - family-names: Dutykh
+      given-names: Denys
+  journal: "SoftwareX"
+  volume: 22
+  start: 101394
+  year: 2023
+  month: 5
+  doi: "10.1016/j.softx.2023.101394"
